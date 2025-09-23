@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <ThresholdFilter level="INFO"/>
+    <Appenders>
+        <RollingFile name="DEBUGFILE" fileName="F:/PROJECT/PROJECT/(Uniotech)HSE_Sensor_Firmware/4.Firmware/V09/HSE_Sensor_V09/.metadata/.ide.log" filePattern="F:/PROJECT/PROJECT/(Uniotech)HSE_Sensor_Firmware/4.Firmware/V09/HSE_Sensor_V09/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%p] %c{1}:%L - %m%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="50MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="DEBUGFILE" />
+        </Root>
+    </Loggers>
+</Configuration>

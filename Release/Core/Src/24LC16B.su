@@ -1,0 +1,11 @@
+../Core/Src/24LC16B.c:61:9:I2C_EEP_Read	40	static
+../Core/Src/24LC16B.c:74:6:I2C_EEP_Write	48	static
+../Core/Src/24LC16B.c:45:6:I2C_EEP_Init	8	static
+../Core/Src/24LC16B.c:113:9:I2C_EEP_READ_U08	0	static
+../Core/Src/24LC16B.c:120:10:I2C_EEP_READ_U16	16	static
+../Core/Src/24LC16B.c:130:10:I2C_EEP_READ_U32	16	static
+../Core/Src/24LC16B.c:142:7:I2C_EEP_READ_FLOAT	16	static
+../Core/Src/24LC16B.c:155:9:I2C_EEP_WRITE_U08	16	static
+../Core/Src/24LC16B.c:172:9:I2C_EEP_WRITE_U16	16	static
+../Core/Src/24LC16B.c:190:9:I2C_EEP_WRITE_U32	24	static
+../Core/Src/24LC16B.c:210:9:I2C_EEP_WRITE_FLOAT	32	static

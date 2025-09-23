@@ -1,0 +1,6 @@
+../Core/Src/Fan.c:15:13:SetFanSpdCtrl	2
+../Core/Src/Fan.c:21:13:SetFanCtrl	2
+../Core/Src/Fan.c:29:6:FAN_Init	1
+../Core/Src/Fan.c:36:6:FAN_Ctrl	2
+../Core/Src/Fan.c:44:9:FAN_RpmMeasuerment	3
+../Core/Src/Fan.c:61:9:FAN_ChkCondition	3
