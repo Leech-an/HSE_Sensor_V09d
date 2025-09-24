@@ -32,9 +32,10 @@ Core/Src/Process.o: ../Core/Src/Process.c \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../Core/Inc/Const.h ../Core/Inc/G_Value.h ../Core/Inc/Uart.h \
- ../Core/Inc/Process.h ../Core/Inc/Parameter.h ../Core/Inc/Config.h \
- ../Core/Inc/Ext_IO.h ../Core/Inc/Fan.h ../Core/Inc/Measure.h
+ ../Core/Inc/Const.h ../Core/Inc/main.h ../Core/Inc/G_Value.h \
+ ../Core/Inc/Uart.h ../Core/Inc/Process.h ../Core/Inc/Parameter.h \
+ ../Core/Inc/Config.h ../Core/Inc/Ext_IO.h ../Core/Inc/Fan.h \
+ ../Core/Inc/Measure.h
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../Core/Inc/stm32l4xx_hal_conf.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
@@ -69,6 +70,7 @@ Core/Src/Process.o: ../Core/Src/Process.c \
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 ../Core/Inc/Const.h:
+../Core/Inc/main.h:
 ../Core/Inc/G_Value.h:
 ../Core/Inc/Uart.h:
 ../Core/Inc/Process.h:

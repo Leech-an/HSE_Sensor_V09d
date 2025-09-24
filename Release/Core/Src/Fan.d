@@ -32,8 +32,8 @@ Core/Src/Fan.o: ../Core/Src/Fan.c \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../Core/Inc/Const.h ../Core/Inc/G_Value.h ../Core/Inc/Parameter.h \
- ../Core/Inc/Fan.h
+ ../Core/Inc/Const.h ../Core/Inc/main.h ../Core/Inc/G_Value.h \
+ ../Core/Inc/Parameter.h ../Core/Inc/Fan.h
 ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h:
 ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h:
 ../Drivers/CMSIS/Include/core_cm4.h:
@@ -68,6 +68,7 @@ Core/Src/Fan.o: ../Core/Src/Fan.c \
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 ../Core/Inc/Const.h:
+../Core/Inc/main.h:
 ../Core/Inc/G_Value.h:
 ../Core/Inc/Parameter.h:
 ../Core/Inc/Fan.h:

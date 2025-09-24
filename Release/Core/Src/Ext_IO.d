@@ -1,5 +1,6 @@
 Core/Src/Ext_IO.o: ../Core/Src/Ext_IO.c ../Core/Inc/Ext_IO.h \
- ../Core/Inc/Const.h ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+ ../Core/Inc/Const.h ../Core/Inc/main.h \
+ ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../Core/Inc/stm32l4xx_hal_conf.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
@@ -35,6 +36,7 @@ Core/Src/Ext_IO.o: ../Core/Src/Ext_IO.c ../Core/Inc/Ext_IO.h \
  ../Core/Inc/G_Value.h ../Core/Inc/Parameter.h
 ../Core/Inc/Ext_IO.h:
 ../Core/Inc/Const.h:
+../Core/Inc/main.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../Core/Inc/stm32l4xx_hal_conf.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:

@@ -1,9 +1,0 @@
-../Core/Src/Uart.c:80:6:UART_RxInit	8	static
-../Core/Src/Uart.c:92:6:UART_TxInit	8	static
-../Core/Src/Uart.c:108:9:UART_CMD_CHK	24	static
-../Core/Src/Uart.c:138:9:FindRcvMsgToPacket	24	static
-../Core/Src/Uart.c:228:6:RcvMsgErrAssambly	24	static
-../Core/Src/Uart.c:256:6:UART_MsgProc	8	static
-../Core/Src/Uart.c:274:6:UART_Init	8	static
-../Core/Src/Uart.c:295:6:UART_StuffAssambly	16	static
-../Core/Src/Uart.c:315:9:UART_Chksum	24	static

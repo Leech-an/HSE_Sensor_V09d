@@ -32,8 +32,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../Core/Inc/adc.h ../Core/Inc/main.h ../Core/Inc/dma.h ../Core/Inc/i2c.h \
- ../Core/Inc/tim.h ../Core/Inc/usart.h ../Core/Inc/gpio.h \
  ../Core/Inc/Ext_IO.h ../Core/Inc/Const.h ../Core/Inc/G_Value.h \
  ../Core/Inc/Config.h ../Core/Inc/Parameter.h ../Core/Inc/Uart.h \
  ../Core/Inc/Fan.h ../Core/Inc/Process.h
@@ -71,13 +69,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
-../Core/Inc/adc.h:
-../Core/Inc/main.h:
-../Core/Inc/dma.h:
-../Core/Inc/i2c.h:
-../Core/Inc/tim.h:
-../Core/Inc/usart.h:
-../Core/Inc/gpio.h:
 ../Core/Inc/Ext_IO.h:
 ../Core/Inc/Const.h:
 ../Core/Inc/G_Value.h:

@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stddef.h>
-
+#include <main.h>
 #define HI	1
 #define LO	0
 
@@ -24,30 +24,13 @@
 #define OK	1
 #define FAULT 0
 
-#define SiPM_SIG_Pin GPIO_PIN_1
-#define SiPM_SIG_GPIO_Port GPIOA
-#define PD_SIG_Pin GPIO_PIN_2
-#define PD_SIG_GPIO_Port GPIOA
-#define LD_MON_Pin GPIO_PIN_3
-#define LD_MON_GPIO_Port GPIOA
-#define HV_CHK_Pin GPIO_PIN_4
-#define HV_CHK_GPIO_Port GPIOA
-#define LD_CON_Pin GPIO_PIN_0
-#define LD_CON_GPIO_Port GPIOB
-#define HV_CON_Pin GPIO_PIN_1
-#define HV_CON_GPIO_Port GPIOB
-#define FAN_RPM_Pin GPIO_PIN_8
-#define FAN_RPM_GPIO_Port GPIOA
-#define PROM_WP_Pin GPIO_PIN_11
-#define PROM_WP_GPIO_Port GPIOA
-#define FAN_SPEED_Pin GPIO_PIN_3
-#define FAN_SPEED_GPIO_Port GPIOB
-#define FAN_CON_Pin GPIO_PIN_4
-#define FAN_CON_GPIO_Port GPIOB
-#define USART_TX_Pin GPIO_PIN_6
-#define USART_TX_GPIO_Port GPIOB
-#define USART_RX_Pin GPIO_PIN_7
-#define USART_RX_GPIO_Port GPIOB
+
+
+
+#define USART_TX_Pin GPIO_PIN_9
+#define USART_TX_GPIO_Port GPIOA
+#define USART_RX_Pin GPIO_PIN_10
+#define USART_RX_GPIO_Port GPIOA
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
