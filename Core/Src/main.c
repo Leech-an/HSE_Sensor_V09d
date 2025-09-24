@@ -42,6 +42,9 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 volatile uint16_t Adc_Temp[16];
+
+#define BOOTLOADER_START_ADDRESS  0x1FFF0000U  // STM32L412KBU6 System Memory 주소
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -232,6 +235,11 @@ int main(void)
   {
 	 SYSTEM_Process();
 	 UART_Transmit_Proc(&huart1);
+
+	    if (FlagFirmwareWROn == ON) {   // BL 명령 등 특정 이벤트가 발생했을 때만
+	        HAL_Delay(200);
+	        JumpToBootloader();
+	    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -591,7 +599,28 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+ void JumpToBootloader(void) {
+    typedef void (*pFunction)(void);
+    pFunction bootloaderEntry;
 
+    __disable_irq();
+
+
+    HAL_RCC_DeInit();
+    HAL_DeInit();
+
+
+    SysTick->CTRL = 0;
+    SysTick->LOAD = 0;
+    SysTick->VAL  = 0;
+
+    // System Memory의 MSP
+    __set_MSP(*(__IO uint32_t*) BOOTLOADER_START_ADDRESS);
+
+
+    bootloaderEntry = (pFunction)(*(__IO uint32_t*) (BOOTLOADER_START_ADDRESS + 4));
+    bootloaderEntry();
+}
 /* USER CODE END 4 */
 
 /**

@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <main.h>
+
 #define HI	1
 #define LO	0
 
@@ -25,7 +25,26 @@
 #define FAULT 0
 
 
-
+#define FAN_CON_Pin GPIO_PIN_14
+#define FAN_CON_GPIO_Port GPIOC
+#define FAN_SPEED_Pin GPIO_PIN_15
+#define FAN_SPEED_GPIO_Port GPIOC
+#define SiPM_Sig_Pin GPIO_PIN_1
+#define SiPM_Sig_GPIO_Port GPIOA
+#define PD_Sig_Pin GPIO_PIN_2
+#define PD_Sig_GPIO_Port GPIOA
+#define LD_Mon_Pin GPIO_PIN_3
+#define LD_Mon_GPIO_Port GPIOA
+#define HV_Chk_Pin GPIO_PIN_4
+#define HV_Chk_GPIO_Port GPIOA
+#define HV_CON_Pin GPIO_PIN_1
+#define HV_CON_GPIO_Port GPIOB
+#define FAN_RPM_Pin GPIO_PIN_8
+#define FAN_RPM_GPIO_Port GPIOA
+#define LD_CON_Pin GPIO_PIN_4
+#define LD_CON_GPIO_Port GPIOB
+#define PROM_WP_Pin GPIO_PIN_5
+#define PROM_WP_GPIO_Port GPIOB
 
 #define USART_TX_Pin GPIO_PIN_9
 #define USART_TX_GPIO_Port GPIOA
