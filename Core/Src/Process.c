@@ -1059,8 +1059,10 @@ void PostMessage_Proc(void)
 			{
 				//if (0x00 == tMsgPkt.Leng) { tSysState.ClientReqType = CLIENT_REQ_GET;}
 				RspAssamblyTxMsg(tMsgPkt.Cmd);
-				SetCfg_Flash_Firmware_Write();
-				m_SysProcSeq = SYS_SEQ_RESET;
+				//SetCfg_Flash_Firmware_Write();
+				//m_SysProcSeq = SYS_SEQ_RESET;
+				FlagFirmwareWROn = ON;
+
 			}break;
 
 			case CMD_SOFT_RESET :

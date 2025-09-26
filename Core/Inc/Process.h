@@ -16,3 +16,4 @@ extern uint8_t m_SysProcSeq;
 extern void PROC_Init(void);
 extern void SYSTEM_Process(void);
 extern void PostMessage_Proc(void);
+extern uint8_t FlagFirmwareWROn;
